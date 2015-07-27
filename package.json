@@ -1,5 +1,5 @@
 {
-  "name": "jetSlider",
+  "name": "dvhb-jetSlider",
   "version": "1.0.1",
   "description": "Simple plugin for making beautiful single-page applications",
   "main": "jquery.jetslider.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/gavr-pavel/jquery.jetslider.js"
+    "url": "git@github.com:dvhbru/dvhb-jetSlider.git"
   },
   "keywords": [
     "jquery",
@@ -19,7 +19,7 @@
   "author": "Pavel Gavrilenko",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gavr-pavel/jquery.jetscroll.js/issues"
+    "url": "https://github.com/dvhbru/dvhb-jetSlider/issues"
   },
   "devDependencies": {
     "gulp": "~3.6.0",
