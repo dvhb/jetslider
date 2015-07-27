@@ -1,16 +1,14 @@
-jetSlider
-=========
+# jetSlider
 
 Simple plugin for making beautiful page transitions
 
 
-Demo
-----
-[Fullpage](http://gavr-pavel.github.io/jetSlider/fullpage_example.html) | [Inline](http://gavr-pavel.github.io/jetSlider/inline_example.html)
+## Demo
+
+[Fullpage](http://dvhbru.github.io/dvhb-jetSlider) | [Inline](http://dvhbru.github.io/dvhb-jetSlider/inline_example.html)
 
 
-Options
--------
+## Options
 
 | Option             | Type       | Default                                                | Description |
 | ------------------ | ---------- | ------------------------------------------------------ | ----------- |
@@ -30,8 +28,7 @@ $('.slider').jetSlider(optionName, value);
 ```
 
 
-Methods
-------------
+## Methods
 
 ```javascript
 $('.slider').jetSlider('moveto', index);
@@ -49,8 +46,8 @@ $('.slider').jetSlider('movedown');
 $('.slider').jetSlider('destroy');
 ```
 
-Like declarative initialization?
---------------------------------
+## Like declarative initialization?
+
 
 You can initialize plugin without js code! Just add `data-jetslider` attribute to slider container.
 
@@ -68,3 +65,7 @@ Options can be customized by using data-* attributes:
      ...
  </div>
 ```
+
+## License
+
+[MIT License](./LICENSE) © Devhub
