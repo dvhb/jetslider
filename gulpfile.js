@@ -1,7 +1,7 @@
-var gulp = require('gulp');
-var uglify = require('gulp-uglifyjs');
-var jshint = require('gulp-jshint');
-
+var gulp = require('gulp'),
+    uglify = require('gulp-uglifyjs'),
+    jshint = require('gulp-jshint'),
+    ghPages = require('gulp-gh-pages');
 
 gulp.task('lint', function() {
   gulp.src('./jquery.jetslider.js')
@@ -18,5 +18,10 @@ gulp.task('uglify', function () {
         .pipe(gulp.dest('./'));
 });
 
+gulp.task('deploy', function() {
+    return gulp.src(['example/**/*', 'jquery.jetslider.min.js', 'jquery.jetslider.js'])
+        .pipe(ghPages())
+        
+});
 
 gulp.task('default', ['lint', 'uglify']);
