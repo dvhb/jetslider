@@ -68,4 +68,5 @@ Options can be customized by using data-* attributes:
 
 ## License
 
-[MIT License](./LICENSE) © Devhub
+[MIT License](./LICENSE) © [dvhb](https://github.com/dvhbru)
+
