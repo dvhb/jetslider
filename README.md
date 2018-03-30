@@ -5,7 +5,7 @@ Simple plugin for making beautiful page transitions
 
 ## Demo
 
-[Fullpage](http://dvhbru.github.io/jetslider) | [Inline](http://dvhbru.github.io/jetSlider/inline_example.html)
+[Fullpage](http://dvhb.github.io/jetslider) | [Inline](http://dvhb.github.io/jetSlider/inline_example.html)
 
 
 ## Options
